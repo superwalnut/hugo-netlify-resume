@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://modest-newton-b02ee3.netlify.app/"
+baseurl = "https://netlify-hugo-resume.netlify.app"
 languageCode = "en-us"
 title = "John Doe Resume"
 theme = "hugo-orbit-theme"
