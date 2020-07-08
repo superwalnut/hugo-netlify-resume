@@ -21,12 +21,23 @@ hugo new site hugo-netlify-resume
 # add a theme
 git clone git@github.com:aerohub/hugo-orbit-theme.git
 
-cp -R --exclude .git hugo-orbit-theme hugo-netlify-resume/themes/ 
-
-cd sample-resume
+rsync -r --exclude '.git' hugo-orbit-theme hugo-netlify-resume/themes/ 
 
 # config
 copy the themes/orbit/exampleSite/config.toml to the root folder or replace content with it.
+
+
+# init git repo and set remote
+cd hugo-netlify-resume
+
+git init
+
+git add .
+
+git commit -m "create blog and add theme"
+
+git remote add origin git@github.com:superwalnut/hugo-netlify-resume.git
+git push -u origin master
 
 # run hugo locally
 hugo server -w
