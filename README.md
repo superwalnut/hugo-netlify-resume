@@ -1,3 +1,5 @@
+full article read: https://medium.com/@mrkevin.wang/create-a-web-personal-profile-page-with-hugo-blog-netlify-for-free-9d2b19a83da1
+
 # hugo-blog-netlify-resume
 This is a example of using Hugo blog to create a resume site on netlify
 
